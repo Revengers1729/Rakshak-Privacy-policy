@@ -1,0 +1,6 @@
+{
+  "name": "Rakshak – Autonomous Safety Ecosystem",
+  "description": "Official landing website for Rakshak, an autonomous personal safety application and technology ecosystem designed for real-world situations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
