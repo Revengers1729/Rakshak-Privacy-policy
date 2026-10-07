@@ -1,29 +1,185 @@
-<!doctype html>
-<html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rakshak — Autonomous Safety Ecosystem</title>
-    <meta name="description" content="Rakshak is a safety-focused technology ecosystem designed around emergency assistance, safety awareness, location-based functionality and security-conscious engineering." />
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="[CANONICAL_URL]" />
-    
-    <!-- Open Graph Metadata -->
-    <meta property="og:title" content="Rakshak — Autonomous Safety Ecosystem" />
-    <meta property="og:description" content="Rakshak brings emergency assistance, safety awareness, location-based protection and intelligent security features together in one ecosystem." />
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Rakshak" />
-    
-    <!-- Twitter Metadata -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Rakshak — Autonomous Safety Ecosystem" />
-    <meta name="twitter:description" content="Technology that stays ready when you need it. Intelligent, security-conscious personal safety ecosystem." />
-    
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48' fill='none'%3E%3Cpath d='M24 4L7 11V22C7 32.5 14.2 42.2 24 45C33.8 42.2 41 32.5 41 22V11L24 4Z' fill='%230A1128' stroke='%2338BDF8' stroke-width='2.5' stroke-linejoin='round'/%3E%3Ccircle cx='24' cy='19' r='4.5' fill='%2338BDF8'/%3E%3Cpath d='M16 32C16 27.58 19.58 24 24 24C28.42 24 32 27.58 32 32' stroke='%2338BDF8' stroke-width='2.5' stroke-linecap='round'/%3E%3C/svg%3E" />
-  </head>
-  <body class="bg-[#060913] text-slate-100 antialiased selection:bg-cyan-500/30 selection:text-cyan-200">
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
-</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Rakshak Security Gateway</title>
+    <style>
+        :root {
+            --bg-color: #07090E;
+            --container-bg: #0F121A;
+            --text-color: #d1d5db;
+            --heading-color: #FF3370;
+            --border-color: #1B202E;
+            --accent-color: #3b82f6;
+        }
 
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background-color: var(--container-bg);
+            padding: 40px;
+            border-radius: 16px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 20px rgba(255, 51, 112, 0.1);
+        }
+
+        h1 {
+            color: var(--heading-color);
+            text-align: center;
+            font-size: 2.2em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+        }
+
+        h2 {
+            color: var(--heading-color);
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+            margin-top: 30px;
+            font-size: 1.5em;
+        }
+
+        h3 {
+            color: #ffffff;
+            margin-top: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: #ffffff;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .header-date {
+            text-align: center;
+            color: #9ca3af;
+            font-size: 0.9em;
+            margin-bottom: 40px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border-color);
+            font-size: 0.85em;
+            color: #9ca3af;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 15px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <div class="header-date"><strong>Effective Date:</strong> October 7, 2026</div>
+
+        <p>Welcome to <strong>Rakshak Security Gateway</strong> ("we," "our," or "us"). Rakshak is an autonomous personal safety, security, and hyper-SOS application designed to provide critical emergency assistance, spatial geofencing, and forensic telemetry dispatch. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.</p>
+
+        <h2>1. Information We Collect</h2>
+        <p>To provide rapid SOS and emergency functionalities, we collect the following types of data locally on your device and transmit them strictly during active emergencies:</p>
+        <ul>
+            <li><strong>Personal Profile Data:</strong> Name, Blood Group, Medical/Clinical Alerts, Emergency Contact Number, and Telegram Chat ID.</li>
+            <li><strong>Forensic Telemetry Data (SOS Mode Only):</strong> Live GPS coordinates, nearby Bluetooth/BLE device names and identifiers (to detect potential threats/witnesses), and background video/audio recordings captured strictly during an active SOS trigger.</li>
+            <li><strong>Sensor Data:</strong> Accelerometer data (to detect freefall or kinetic strikes) and microphone decibel levels (for scream detection).</li>
+        </ul>
+
+        <h2>2. How We Use Your Information</h2>
+        <p>We use the collected information exclusively for your personal safety:</p>
+        <ul>
+            <li>To dispatch instant SOS alerts containing your live location, medical data, and forensic evidence to your designated Telegram Chat ID.</li>
+            <li>To automatically trigger direct phone calls to your emergency contact during a critical event bypassing the standard dialer.</li>
+            <li>To notify nearby Rakshak users (via Guardian Angel Mode) if you are in distress.</li>
+            <li>To calculate spatial distance for Geofence nodes and outbound transit timers.</li>
+        </ul>
+
+        <h2>3. Core Permissions Requested & Why We Need Them</h2>
+        <p>Rakshak requires sensitive permissions to function purely as a life-saving tool. <strong>We do not sell, track, or use this data for advertising.</strong></p>
+        <ul>
+            <li><strong>Location (Foreground & Background):</strong> Required to map your live grid coordinates, enforce safety geofences, and share your exact location in an SOS event even when the app is closed or running in the background.</li>
+            <li><strong>Camera:</strong> Required to capture short, low-resolution "Forensic Video Chunks" silently when an SOS is triggered, serving as emergency evidence.</li>
+            <li><strong>Microphone:</strong> Required for the "Scream Decibel Core Matrix" (detecting distress audio thresholds) and "Voice Acoustic Detection" keywords. Audio is processed locally.</li>
+            <li><strong>Bluetooth (Scan & Connect):</strong> Required to scan for nearby active BLE devices during an SOS event to log potential witness/attacker device signatures in the telemetry payload.</li>
+            <li><strong>Phone (Direct Call):</strong> Required to bypass the dialer and automatically call your designated emergency contact when hyper-SOS is active.</li>
+            <li><strong>Ignore Battery Optimizations:</strong> Required to keep the background surveillance thread running continuously without the Android OS terminating the security service.</li>
+            <li><strong>Notifications:</strong> Required to display the persistent active shield status and deliver critical system alerts.</li>
+        </ul>
+
+        <h2>4. Third-Party Services & Data Sharing</h2>
+        <p>Your data is highly restricted. However, to execute emergency protocols, data is routed through the following trusted third-party infrastructures:</p>
+        <ul>
+            <li><strong>Telegram API:</strong> SOS telemetry (text, location, video status, BLE scans) is dispatched directly to the Telegram API. We use Base64 obfuscation and SSL-pinned connections to secure this transmission.</li>
+            <li><strong>Firebase (Google):</strong> We use Firebase Realtime Database strictly for the "Guardian Angel Signal" to broadcast brief location pings to nearby users during an SOS. Firebase Cloud Messaging (FCM) is used for push notifications.</li>
+            <li><strong>Local Storage:</strong> Your personal configurations and safety zones are stored securely on your local device using standard Android SharedPreferences.</li>
+        </ul>
+
+        <h2>5. Data Security & Storage</h2>
+        <p>We employ military-grade security architectures to protect your data:</p>
+        <ul>
+            <li><strong>SSL Certificate Pinning:</strong> All network connections are protected via strict SSL certificate pinning to prevent Man-in-the-Middle (MitM) attacks.</li>
+            <li><strong>Anti-Tampering Logic:</strong> The app utilizes a native Security Engine to detect environment tampering, Frida injection, or rooting, and exits automatically if the device environment is compromised.</li>
+        </ul>
+
+        <h2>6. Guardian Angel Mode & Geofencing</h2>
+        <ul>
+            <li><strong>Geofencing:</strong> Your defined "Safety Zones" are monitored locally. Distance calculations happen on-device without continuous cloud tracking.</li>
+            <li><strong>Guardian Angel:</strong> If activated, your SOS location ping is temporarily logged in our secure Firebase database for up to 10 minutes to alert nearby users, after which it becomes functionally obsolete.</li>
+        </ul>
+
+        <h2>7. Data Retention & Deletion</h2>
+        <p>Your primary configurations, emergency contacts, and safety zones remain securely on your local device hardware. If you wish to remove your data from the Guardian Angel grid, you can disable the feature in the app settings, which will cease all cloud broadcasting. You can delete all your local data at any time by clearing the app data in your device settings or uninstalling the app.</p>
+
+        <h2>8. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy periodically to reflect changes in our security protocols or legal requirements. We will notify you of any major changes by updating the "Effective Date" at the top of this policy.</p>
+
+        <h2>9. Contact Us</h2>
+        <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact the developer:</p>
+        <ul>
+            <li><strong>Developer:</strong> Aryan Patel</li>
+            <li><strong>Project Repository:</strong> <a href="https://revengers1729.github.io/Rakshak-Privacy-policy/" target="_blank">Rakshak Privacy Policy Portal</a></li>
+        </ul>
+
+        <div class="footer">
+            &copy; 2026 Rakshak Security Gateway. All rights reserved. Built for security and safety.
+        </div>
+    </div>
+
+</body>
+</html>
